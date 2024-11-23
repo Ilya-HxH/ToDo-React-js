@@ -5,6 +5,7 @@ import FilterTabs from './components/FilterTabs';
 import SearchBar from './components/SearchBar';
 
 function App() {
+    
     const [todos, setTodos] = useState([]);
     const [filter, setFilter] = useState('all');
     const [searchTerm, setSearchTerm] = useState('');

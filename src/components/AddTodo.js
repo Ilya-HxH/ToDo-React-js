@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 function AddTodo({ addTodo }) {
+    
     const [task, setTask] = useState('');
 
     const handleSubmit = (e) => {

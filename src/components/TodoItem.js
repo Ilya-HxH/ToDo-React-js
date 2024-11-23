@@ -1,6 +1,7 @@
 import React from 'react';
 
 function TodoItem({ todo, toggleComplete, deleteTodo }) {
+    
     return (
         <li className="flex justify-between items-center p-2 border-b border-gray-200 hover:bg-gray-50">
             <span
